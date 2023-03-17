@@ -1,9 +1,6 @@
 import React from 'react';
-//import logo from './logo.svg';
-//import './App.css';
-//import SectorInfo from './componentes/SectorInfo';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import { NavbarComp } from './components/NavBarComp';
+import { NavbarComp } from './routes/NavBarComp';
 
 
 function App() {
