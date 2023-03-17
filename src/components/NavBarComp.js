@@ -1,7 +1,7 @@
 
-import React from 'react'
-import { Routes, Route, NavLink, BrowserRouter } from 'react-router-dom'
-import { Navbar, Nav } from 'react-bootstrap'
+import React from 'react';
+import { Routes, Route, NavLink, BrowserRouter } from 'react-router-dom';
+import { Navbar, Nav } from 'react-bootstrap';
 import Button from 'react-bootstrap/Button';
 
 import Home from './Home';
