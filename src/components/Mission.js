@@ -5,6 +5,7 @@ export default class Mission extends Component {
         return (
             <div>
               <h1> Misión </h1>  
+              
             </div>
         )
     }
