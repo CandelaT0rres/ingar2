@@ -1,16 +1,16 @@
 import React from "react";
 import { Routes, Route, BrowserRouter } from 'react-router-dom';
-import { Footer } from "../components/layout/Footer";
 import { Header } from "../components/layout/Header";
-import { Nav } from "../components/layout/Nav";
+import { NavBar } from "../components/layout/NavBar";
 import { Sidebar } from "../components/layout/Sidebar";
-import { About } from "../components/pages/About";
-import { Contact } from "../components/pages/Contact";
+import { Footer } from "../components/layout/Footer";
 import { Home } from "../components/pages/Home";
+import { About } from "../components/pages/About";
 import { Services } from "../components/pages/Services";
+import { Contact } from "../components/pages/Contact";
 
 
-export const NavbarComp = () => {
+const NavbarComp = () => {
   return (
     <>
       <BrowserRouter>
@@ -19,7 +19,7 @@ export const NavbarComp = () => {
           <Header />
 
         {/* Nav */}
-          <Nav />
+          <NavBar />
 
 
         {/* Sidebar */}
@@ -41,3 +41,5 @@ export const NavbarComp = () => {
     </>
   )
 };
+
+export default NavbarComp;

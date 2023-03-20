@@ -2,7 +2,7 @@ import React from 'react';
 //import logo from './logo.svg';
 //import './App.css';
 //import SectorInfo from './componentes/SectorInfo';
-import { NavbarComp } from './routes/NavBarComp';
+import  NavbarComp  from './routes/NavBarComp';
 import 'bootstrap/dist/css/bootstrap.min.css';
 
 
