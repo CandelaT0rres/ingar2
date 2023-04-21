@@ -1,27 +1,27 @@
 import React from 'react'
 import { NavLink } from 'react-router-dom';
 import { Navbar, Nav } from 'react-bootstrap';
-import Button from 'react-bootstrap/Button';
+
 
 export const NavBar = () => {
   return (
-    <div>
-          <Navbar bg="dark" variant={"dark"} expand="lg" className= "navBarPadre" title="Dropdown" id="basic-nav-dropdown" >
-            <Navbar.Brand href="#">INGAR</Navbar.Brand>
+    <div  className='navBar'>
+          <Navbar bg="ligth" variant={"ligth"} expand="lg" className= "navBarPadre"  title="Dropdown" id="basic-nav-dropdown" >
+            <Navbar.Brand href="#" className='ms-5'>INGAR</Navbar.Brand>
             <Navbar.Toggle aria-controls="navbarScroll" />
-            <Navbar.Collapse id="navbarScroll">
+            <Navbar.Collapse id="navbarScroll" className= 'd-flex justify-content-center'>
 
-              <Nav
-                className="mr-auto my-2 my-lg-0 nav-bar"
+              <Nav 
                 style={{ maxHeight: '100px' }}
                 navbarScroll
               >
-                <NavLink to='/home'>Inicio</NavLink>
-                <NavLink to='/about'>Quiénes Somos</NavLink>
-                <NavLink to='/services'>Servicios</NavLink>
-                <NavLink to='/contact'>Contacto</NavLink>
-                <Button variant="outline-info" class='button'>Buscar</Button>{' '}
+                <NavLink className='ms-4 boton nav-link fw-bold fs-5' to='/home'>Inicio</NavLink>
+                <NavLink className='ms-4 boton nav-link fw-bold fs-5' to='/about'>Quiénes Somos</NavLink>
+                <NavLink className='ms-4 boton nav-link fw-bold fs-5' to='/services'>Servicios</NavLink>
+                <NavLink className='ms-4 boton nav-link fw-bold fs-5' to='/contact'>Contacto</NavLink>
 
+                
+              
               </Nav>
 
             </Navbar.Collapse>

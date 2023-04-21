@@ -1,38 +1,177 @@
-.App {
+*{
+  background-size: cover;
+  
+  
+}
+
+
+.layout{
+
+height: 100vh;
+display: grid;
+grid-template-areas:'nav nav nav nav'
+                    'contenido contenido contenido sidebar' 
+                    'footer footer footer footer'; 
+grid-template-columns: 1fr 1fr 1fr 0.75fr; 
+grid-template-rows:60px auto 70px  ;
+                
+}
+
+
+.navBar{
+ grid-area: nav;
+ background-color: white;
+ 
+ 
+}
+
+.contenido{
+  grid-area: contenido; 
+  
+}
+
+.sidebar{
+  grid-area: sidebar; 
+}
+
+.footer{
+  grid-area: footer;
+
+}
+
+.boton{
+  color:#005151;
+  
+
+
+}
+
+.About{
+  background-image: url('../public/img/camion1.jpg');
+    background-attachment: fixed;
+    background-repeat: no repeat;
+    background-position: center;
+    background-size:100%;
+ }
+
+
+
+.home{
+  background-image: url('C:\Users\lauta\Desktop\Diseño Web\INGAR\ingar\public\img\fondo1.jpg');
+}
+
+.services{
+  background-image: url('C:\Users\lauta\Desktop\Diseño Web\INGAR\ingar\public\img\fondo1.jpg');
+}
+
+.aboutLetra {
   text-align: center;
+  color: #fff;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.contenedor1{
+  text-align: center;
+  font-weight: normal;
+
+}
+.contenedor2{
+  text-align: center;
+   font-weight: normal;
+
+}
+.parrafo1{
+font-size: 15px;
+
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+
+.button{
+  margin-left: 150px;
+  margin-right: 10px;
+  margin-top: 10px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+
+
+ body{
+ margin:0;
+ padding:0;
+ background: black;
 }
 
-.App-link {
-  color: #61dafb;
+
+
+.container {
+  padding: 350px;
+  
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+input {
+  outline: none;
+  box-sizing: border-box;
+  height: 40px;
+  width: 0;
+  padding: 0 10px;
+  color:#000;
+  border-radius: 50px;
+  font-size: 15px;
+  border: 2px solid #93e6ff;
+  transition: all .7s ease;
+
 }
+
+::placeholder{
+  color: grey;
+
+}
+.buscar{
+  position: absolute;
+  width:40px;
+  height:40px;
+  background: #93e6ff;
+  line-height: 30px;
+  border-radius:50%;
+  text-align:center;
+  transition: 5s;
+  font-size: 20px;
+
+  left: 1145px;
+
+
+}
+
+
+.buscar i{
+
+font-size: 30px;
+color: black;
+line-height: 20px;
+transition: all .7s ease;
+
+}
+
+.container:hover  input {
+width: 200px;
+
+}
+
+.container:hover  i{
+ transform: rotate(-360deg);
+  
+}
+
+.buscar:hover {
+  background: #93e6ff;
+}
+
+.buscar:hover {
+  background: #93e6ff;
+}
+
+
+
+
+
+
+
+

@@ -1,11 +1,7 @@
 import React from 'react';
-//import logo from './logo.svg';
-//import './App.css';
-//import SectorInfo from './componentes/SectorInfo';
+import './App.css';
 import  NavbarComp  from './routes/NavBarComp';
 import 'bootstrap/dist/css/bootstrap.min.css';
-
-
 
 function App() {
   return (

@@ -1,6 +1,5 @@
 import React from "react";
 import { Routes, Route, BrowserRouter } from 'react-router-dom';
-import { Header } from "../components/layout/Header";
 import { NavBar } from "../components/layout/NavBar";
 import { Sidebar } from "../components/layout/Sidebar";
 import { Footer } from "../components/layout/Footer";
@@ -12,11 +11,9 @@ import { Contact } from "../components/pages/Contact";
 
 const NavbarComp = () => {
   return (
-    <>
-      <BrowserRouter>
-        {/* Header */}
+    <div className='layout'>
 
-          <Header />
+      <BrowserRouter>
 
         {/* Nav */}
           <NavBar />
@@ -26,7 +23,7 @@ const NavbarComp = () => {
           <Sidebar />
 
         {/* Contenido */}
-          <div>
+          <div className='contenido'>
             <Routes>
               <Route path="/home" element={<Home/>} />
               <Route path="/about" element={<About />}/>
@@ -38,7 +35,8 @@ const NavbarComp = () => {
         {/* Footer */}
           <Footer />
       </BrowserRouter>
-    </>
+
+    </div>
   )
 };
 
