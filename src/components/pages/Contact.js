@@ -15,7 +15,7 @@ export const Contact = () => {
 
                     <form action=''>
                         <p>
-                        <label for='nombre'>Nombre</label>
+                        <label>Nombre</label>
                         <input type='text' className='nombre'></input>
                         </p>
 
@@ -48,16 +48,11 @@ export const Contact = () => {
                     </form>
 
                 </div>
-                <div className= 'contact-info'>
+                <div className='contact-info'>
                    <h4>Más información</h4>
 
-                   <ul>
-                     <li>
-                     
-                     </li>
-                   </ul>
-
-
+                 
+                   
 
                 </div>
 

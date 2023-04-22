@@ -6,6 +6,8 @@ import Collapse from 'react-bootstrap/Collapse';
 
 
 
+
+
 export const About = () => {
   
 
@@ -70,29 +72,13 @@ export const About = () => {
        </>
      </div> 
 
+    
+       <div>
+       <img src="./img/ingar2.png" alt="Descripción de mi imagen" className='img-fluid w-40 h-auto'/>
+       </div>
 
 
-      <div>
-
-        <h1> Misión  </h1>
-
-        <p>
-          MISIÓN: Transformarnos en el prestador de Servicio de Ingenieria, Mantenimiento y Procesos, proveyendo soluciones innovadoras у económicamente rentables, generando valores, beneficios y experiencia a nuestros
-        </p>
-
-        <p>
-          OBJETIVOS: Crecimiento efectivo y eficiente de acuerdo a nuestras Reglas de Calidad. Expandir nuestros mercados y negocios haciendo actividades más complejas que nuestros competidores Alcanzar estas actividades complejas teniendo en cuenta las correctas valoraciones de los riesgos y ventajas competitivas.
-        </p>
-
-        <p>
-          VISIÓN: Alcanzar una posición de liderazgo Mundial de las firmas Consultoras, focalizados en brindar Servicios de Ingeniería de acuerdo a nuestra Misión, trabajando de acuerdo a nuestros Valores teniendo en cuenta el mantenimiento de nuestros Objetivos
-        </p>
-
-        <p>
-          VALORES: Profesionalismo siempre que llevamos a cabo nuestras tareas. Respeto y Diversidad. Seremos los motores de cambio de nuestros Clientes
-        </p>
-
-      </div>
+      
 
       <section>
         <a href='http://c2200184.ferozo.com/INGAR-Corporativo.mp4'> Para saber más sobre nosotros </a>

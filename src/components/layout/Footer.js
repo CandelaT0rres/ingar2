@@ -5,7 +5,7 @@ export const Footer = () => {
     <div className='footer'>Footer
     
     
-    <p> ALAN ES UN TROLO </p>
+    <p> </p>
     
     
     </div>
