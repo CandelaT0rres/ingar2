@@ -1,8 +1,9 @@
 *{
   background-size: cover;
   
-  
 }
+
+
 
 
 .layout{
@@ -47,7 +48,7 @@ grid-template-rows:60px auto 70px  ;
 }
 
 .About{
-  background-image: url('../public/img/camion1.jpg');
+  background-image:  url('C:\Users\lauta\Desktop\Diseño Web\INGAR\ingar\public\img\fondo1.jpg');
     background-attachment: fixed;
     background-repeat: no repeat;
     background-position: center;
@@ -134,9 +135,7 @@ input {
   text-align:center;
   transition: 5s;
   font-size: 20px;
-
   left: 1145px;
-
 
 }
 
@@ -164,14 +163,9 @@ width: 200px;
   background: #93e6ff;
 }
 
-.buscar:hover {
-  background: #93e6ff;
+
+.containerServices{
+  background-color: chartreuse;
 }
-
-
-
-
-
-
 
 
