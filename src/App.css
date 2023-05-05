@@ -1,6 +1,5 @@
 *{
   background-size: cover;
-  
 }
 
 .layout{
@@ -44,43 +43,11 @@ grid-template-rows:60px auto 70px  ;
 
 }
 
-.About{
-  background-image:  url('C:\Users\lauta\Desktop\Diseño Web\INGAR\ingar\public\img\fondo1.jpg');
-    background-attachment: fixed;
-    background-repeat: no repeat;
-    background-position: center;
-    background-size:100%;
- }
 
 
 
-.home{
-  background-image: url('C:\Users\lauta\Desktop\Diseño Web\INGAR\ingar\public\img\fondo1.jpg');
-}
 
-.services{
-  background-image: url('C:\Users\lauta\Desktop\Diseño Web\INGAR\ingar\public\img\fondo1.jpg');
-}
 
-.aboutLetra {
-  text-align: center;
-  color: #fff;
-}
-
-.contenedor1{
-  text-align: center;
-  font-weight: normal;
-
-}
-.contenedor2{
-  text-align: center;
-   font-weight: normal;
-
-}
-.parrafo1{
-font-size: 15px;
-
-}
 
 
 .button{
@@ -91,11 +58,7 @@ font-size: 15px;
 
 
 
-body{
- margin:0;
- padding:0;
- background: black;
-}
+
 
 
 
@@ -160,4 +123,56 @@ width: 200px;
   background: #93e6ff;
 }
 
+.sobreNosotrosImg {
+  
 
+  width: 100%;
+  height: 100%;
+  
+
+    
+ 
+}
+
+.inicio-home-background{
+  width: 100%;
+  height: 100%;
+  background-image: url("./assets/carrusel1.jpg");
+  background-attachment: fixed;
+  background-repeat: no repeat;
+  background-size: cover;
+  background-position: center;
+}
+.section-1-home{
+  width: 100%;
+  height: 70vh;
+}
+
+.section-2-home{
+  width: 100%;
+  height: 70vh;
+}
+ 
+ 
+.texto{
+  margin-top: -200px
+}
+
+
+.texto2{
+  margin-top: -180px
+}
+
+.misiones {
+  width: 100%;
+
+
+}
+
+.CHAT{
+  
+    width: 100%;
+  
+  
+  
+}

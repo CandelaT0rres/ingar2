@@ -12,7 +12,7 @@ export const Sidebar = () => {
   return (
 
    <div className="container">
-      <input type="text" placeholder="       Buscar"></input>
+      <input type="text" placeholder="       Buscar" ></input>
       
        <i className="emoji"><BsSearch/></i>
       
