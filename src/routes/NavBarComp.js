@@ -1,7 +1,6 @@
 import React from "react";
 import { Routes, Route, BrowserRouter } from 'react-router-dom';
 import { NavBar } from "../components/layout/NavBar";
-import { Sidebar } from "../components/layout/Sidebar";
 import { Footer } from "../components/layout/Footer";
 import { Home } from "../components/pages/Home";
 import { About } from "../components/pages/About";
@@ -17,10 +16,6 @@ const NavbarComp = () => {
 
         {/* Nav */}
           <NavBar />
-
-
-        {/* Sidebar */}
-          <Sidebar />
 
         {/* Contenido */}
           <div className='contenido'>
