@@ -1,14 +1,8 @@
 import React from 'react'
 
 
-
-
-
-
-
 export const About = () => {
   
-
   
   return (
     <div className='About ms-4 boton nav-link fw-bold fs-3'>

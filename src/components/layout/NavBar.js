@@ -1,19 +1,22 @@
 import React from 'react'
 import { NavLink } from 'react-router-dom';
-import { Navbar, Nav, Placeholder } from 'react-bootstrap';
-import { BsSearch } from 'react-icons/bs';
+import { Navbar, Nav } from 'react-bootstrap';
+//import { BsSearch } from 'react-icons/bs';
 
 
 export const NavBar = () => {
   return (
     <div  className='navBar'>
-          <Navbar bg="ligth" variant={"ligth"} expand="lg" className= "navBarPadre"  title="Dropdown" id="basic-nav-dropdown" >
-            <Navbar.Brand href="#" className='ms-5'>
+          <Navbar
+           bg="ligth transparent "
+            variant={"ligth"} 
+            expand="lg" className= "navBarPadre "  title="Dropdown" id="basic-nav-dropdown" >
+            <Navbar.Brand href="#" className=' navbar-light ms-5'>
 
            
             </Navbar.Brand>
             <Navbar.Toggle aria-controls="navbarScroll" />
-            <Navbar.Collapse id="navbarScroll" className= 'd-flex justify-content-center'>
+            <Navbar.Collapse id="navbarScroll" className='d-flex justify-content-center'>
 
               <Nav 
                 style={{ maxHeight: '100px' }}

@@ -1,6 +1,10 @@
 *{
   background-size: cover;
+
 }
+
+
+
 
 
 .layout{
@@ -68,20 +72,6 @@ grid-template-rows:60px auto 70px  ;
   
 }
 
-/*input {
-  outline: none;
-  box-sizing: border-box;
-  height: 40px;
-  width: 0;
-  padding: 0 10px;
-  color:#000;
-  border-radius: 50px;
-  font-size: 15px;
-  border: 2px solid #93e6ff;
-  transition: all .7s ease;
-
-}
-*/
 
 ::placeholder{
   color: grey;
@@ -252,7 +242,7 @@ ul {
   background: none;
   outline: 0;
   color: #fff;
-  border-bottom: 1px solid #93e6ff;;
+  border-bottom: 1px solid #93e6ff;
 }
 
 .contact-form form button {
@@ -282,50 +272,52 @@ ul {
 }
 
 
+/* inicio */
 
-
-.container-main{
-  height: 100%;
-  width: 100%;
-  margin:0;
- 
-}
-
-.main-banner{
-  padding: 2rem 1rem 0;
-}
 
 .ingar{
  color: white;
+
 }
  
-.contenido{background: linear-gradient(to right, #000,#333D40);}
-
 
 .titulo{
   font-family: 'Quicksand', sans-serif;
   font-size: 1.5rem;
+  margin-top: -250px;
+  margin-right: 20px;
+  
 }
+
 
 .descripcion{
-  font-size: 0.8rem;
-}
+  font-size: 1.8rem;
+  margin-top: 40px;
+  margin-right: 20px;
 
+}
+ 
 .s-center{
   text-align: center;
   color:#93e6ff;
+  
 }
 
-/* inicio */
+
 
 @media screen and (min-width: 1024px) {
   .s-center {
-    text-align: left;
+    text-align: right;
+
   }
 
   .titulo {
-    font-size: 2.5rem;
+    font-size: 3.5rem;
   }
+  .descripcion{
+    font-size: 1.6rem;
+  }
+ 
 }
   
  
@@ -348,88 +340,81 @@ ul {
 
 
 /* inicio grafico*/
-
-
-
-
-
-
-.table{
-  position: absolute;
-  right: 400px;
-  top: 50px
+.home{background: linear-gradient(to right,#333D40, #000);
+  height: 100%;
 }
-
-
-
 
 
 .imagenG  {
-  width: 120px;
-  height:120px; 
-
-}
-
-
-.numeroUno{
-  position: absolute;
-  top: 140px;
-  left: 780px;
   
-
-}
-.numeroDos{
-  position: absolute;
-  top: 150px;
-  left: 550px;
-
-}
-.numeroTres{
-  position: absolute;
-  top: 280px;
-  left: 480px;
-}
-
-.numeroCuatro{
-  position: absolute;
-  top: 400px;
-  left: 540px;
+  margin: 0px 10px 0px 10px;
+  animation: rotar 50s infinite linear; 
  
 }
 
-.numeroCinco{
-  position: absolute;
-  top: 400px;
-  left: 780px;
+
+.Principal{
+  width: 500px;
+  height: 500px;
+  margin: auto; 
+  display: grid; 
+  border-radius: 50%;
+  animation: rotacion 50s infinite linear; 
+  margin-right: 90%;
+ 
 }
 
-.numeroSeis{
-  position: absolute;
-  top: 280px;
-  left: 850px;
+.nUno{
+  float:right;
+  width: 120px;
+  height:120px; 
+ 
+}
+.nDos{
+  float:left;
+  width: 90px;
+  height:90px; 
+  
   
 }
-
-
-.circulos{
-  animation-name: rotacion; /* nombre de la animación */
- animation-duration:15s ; /* duración de la animación */
-  animation-iteration-count: infinite; /* número de veces que se repetirá la animación */
-  animation-timing-function: linear; /* función de temporización */
+.nTres{
+  float:left;
+  width: 140px;
+  height:140px; 
+}
+.nCuatro{
+  float:right;
+  width: 120px;
+  height:120px; 
+}
+.nCinco{
+  float:right;
+  width: 120px;
+  height:120px; 
+}
+.nSeis{
+  float:left;
+  width: 120px;
+  height:120px; 
 }
 
 
-.table{
+.td {
   
-  animation-name: rotar; /* nombre de la animación */
-  animation-duration:15s ; /* duración de la animación */
-  animation-iteration-count: infinite; /* número de veces que se repetirá la animación */
-  animation-timing-function: linear; /* función de temporización */
+  position: relative;
+  width: 100px;
+  height: 100px;
+
 }
 
-
-
-
+.fijado{
+  position: absolute;
+  width: 120px;
+  height:120px; 
+  mix-blend-mode: screen;
+  top: 35%;
+  right: 79%;
+}
 
 
 
@@ -443,8 +428,6 @@ ul {
   }
 }
 
-
-
 @keyframes rotar {
   from {
     transform: rotate(360deg);
@@ -454,3 +437,26 @@ ul {
   }
 }
 
+.shadowed-text{
+  text-shadow: 5px 5px 50px rgba(255, 255, 255, 0.5);
+}
+.shadowed-consulting {
+  text-shadow: 5px 5px 50px rgba(106, 232, 255, 0.5);
+}
+
+@keyframes slideInFromLeft {
+  0% {
+    transform: translateX(100%);
+  }
+  100% {
+    transform: translateX(0);
+  }
+}
+
+.slide-in-text-uno {
+  animation: slideInFromLeft 1s ease-in;
+}
+
+.slide-in-text-dos {
+  animation: slideInFromLeft 2s ease-in;
+}
