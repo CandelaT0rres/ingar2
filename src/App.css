@@ -1,35 +1,24 @@
 *{
   background-size: cover;
-
 }
 
-
-
-
-
 .layout{
-
-height: 100vh;
-display: grid;
-grid-template-areas:'nav nav nav nav'
-                    'contenido contenido contenido contenido' 
-                    'footer footer footer footer'; 
-grid-template-columns: 1fr 1fr 1fr 0.75fr; 
-grid-template-rows:60px auto 70px  ;
-                
+  height: 100vh;
+  display: grid;
+  grid-template-areas:'nav nav nav nav'
+                      'contenido contenido contenido contenido' 
+                      'footer footer footer footer'; 
+  grid-template-columns: 1fr 1fr 1fr 0.75fr; 
+  grid-template-rows:60px auto 70px  ;              
 }
 
 
 .navBar{
  grid-area: nav;
- background-color: white;
- 
- 
 }
 
 .contenido{
   grid-area: contenido; 
-  
 }
 
 .sidebar{
@@ -38,67 +27,16 @@ grid-template-rows:60px auto 70px  ;
 
 .footer{
   grid-area: footer;
-
 }
 
-.boton{
-  color:#005151;
-  
-
-
-}
-
-
-
-
-
-
-
-
-.button{
-  margin-left: 150px;
-  margin-right: 10px;
-  margin-top: 10px;
-}
-
-
-
-
-
-
-
+/*acomoda las letras del about as */
 .container {
   padding: 350px;
-  
 }
 
 
 ::placeholder{
   color: grey;
-
-}
-.emoji{
-  position: absolute;
-  width:40px;
-  height:40px;
-  background: #93e6ff;
-  line-height: 30px;
-  border-radius:50%;
-  text-align:center;
-  transition: 5s;
-  font-size: 20px;
-  left: 1145px;
-
-}
-
-
-.emoji i{
-font-size: 30px;
-color: black;
-line-height: 20px;
-transition: all .7s ease;
-
-
 }
 
 .container:hover  input {
@@ -116,14 +54,8 @@ width: 200px;
 }
 
 .sobreNosotrosImg {
-  
-
   width: 100%;
   height: 100%;
-  
-
-    
- 
 }
 
 .inicio-home-background{
@@ -135,6 +67,7 @@ width: 200px;
   background-size: cover;
   background-position: center;
 }
+
 .section-1-home{
   width: 100%;
   height: 70vh;
@@ -145,11 +78,9 @@ width: 200px;
   height: 70vh;
 }
  
- 
 .texto{
   margin-top: -200px
 }
-
 
 .texto2{
   margin-top: -180px
@@ -157,22 +88,16 @@ width: 200px;
 
 .misiones {
   width: 100%;
-
-
 }
 
 .CHAT{
-  
   width: 100%;
-  
-  
-  
+
 }
 
 
 
 .contact {
-  
   box-sizing: border-box;
   font-family: 'Quicksand', sans-serif;
   background-color: #181818;
@@ -289,26 +214,20 @@ ul {
   
 }
 
-
 .descripcion{
   font-size: 1.8rem;
   margin-top: 40px;
   margin-right: 20px;
-
 }
  
 .s-center{
   text-align: center;
   color:#93e6ff;
-  
 }
-
-
 
 @media screen and (min-width: 1024px) {
   .s-center {
     text-align: right;
-
   }
 
   .titulo {
@@ -321,7 +240,7 @@ ul {
 }
   
  
-/* LARGE SIZE  formulario de contacto*/
+/* LARGE SIZE  formulario de contacto */
 @media(min-width: 700px) {
 
   .contact-wrapper {
@@ -339,11 +258,10 @@ ul {
 }
 
 
-/* inicio grafico*/
+/* inicio grafico */
 .home{background: linear-gradient(to right,#333D40, #000);
   height: 100%;
 }
-
 
 .imagenG  {
   
@@ -351,7 +269,6 @@ ul {
   animation: rotar 50s infinite linear; 
  
 }
-
 
 .Principal{
   width: 500px;
@@ -372,8 +289,8 @@ ul {
 }
 .nDos{
   float:left;
-  width: 90px;
-  height:90px; 
+  width: 88px;
+  height:88px; 
   
   
 }
@@ -409,15 +326,12 @@ ul {
 
 .fijado{
   position: absolute;
-  width: 120px;
-  height:120px; 
+  width: 190px;
+  height:140px; 
   mix-blend-mode: screen;
-  top: 35%;
-  right: 79%;
+  top: 34%;
+  right: 76%;
 }
-
-
-
 
 @keyframes rotacion {
   from {
@@ -460,3 +374,10 @@ ul {
 .slide-in-text-dos {
   animation: slideInFromLeft 2s ease-in;
 }
+
+
+.td {
+  border: none; 
+}
+
+

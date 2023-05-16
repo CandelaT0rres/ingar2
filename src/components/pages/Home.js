@@ -8,7 +8,7 @@ export const Home = () => {
     <div className='home'>
        
        
-       <img src="./img/logo.png" alt="scania" className='fijado'/>
+       <img src="./img/ingarPe.png" alt="scania" className='fijado'/>
 
            
 
@@ -21,8 +21,8 @@ export const Home = () => {
          
 
           <tbody className= 'tbody'>
-            <tr>
-            <td className= 'td'> <img src="./img/scaniaSF.png" alt="scania" className='imagenG  nUno'/> </td>
+            <tr >
+            <td  style={{ color: 'none' }} className= 'td'> <img src="./img/scaniaSF.png" alt="scania" className='imagenG  nUno'/> </td>
             <td className= 'td'> <img src="./img/volvoSF.png" alt="volvo" className='imagenG nDos'/> </td>
             </tr>
           </tbody>
