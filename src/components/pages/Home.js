@@ -22,22 +22,23 @@ export const Home = () => {
 
           <tbody className= 'tbody'>
             <tr >
-            <td  style={{ color: 'none' }} className= 'td'> <img src="./img/scaniaSF.png" alt="scania" className='imagenG  nUno'/> </td>
-            <td className= 'td'> <img src="./img/volvoSF.png" alt="volvo" className='imagenG nDos'/> </td>
+            <td className= 'td'>  <a href='https://www.scania.com/ar/es/home/services/repair-and-maintenance/scania-parts.html' target='_blank'>  <img src="./img/scaniaSF.png" alt="scania" className='imagenG  nUno'/> </a></td>
+            <td className= 'td'> <a href='https://www.volvorepuestos.com.ar/' target='_blank'> <img src="./img/volvoSF.png" alt="volvo" className='imagenG nDos'/></a></td>
             </tr>
           </tbody>
 
           <tbody className= 'tbody'>
           <tr>
-            <td className= 'td'>  <img src="./img/volskInicio.png" alt="volk" className='imagenG  nTres'/></td>
-            <td className= 'td'> <img src="./img/mercedesSF.png" alt="mercedes" className='imagenG  nCuatro'/></td>
+            <td className= 'td'> <a href='https://vwcamionesybuses.com.ar/' target='_blank'><img src="./img/volskInicio.png" alt="volk" className='imagenG  nTres'/></a> </td>
+            <td className= 'td'> <a href='https://www.deere.es/es/index.html' target='_blank'><img src="./img/john.png" alt="john" className='imagenG nCuatro'/> </a></td>
             </tr>
           </tbody>
 
           <tbody className= 'tbody'>
           <tr>
-            <td className= 'td'> <img src="./img/ivecoSF.png" alt="iveco" className='imagenG nCinco'/></td>
-            <td className= 'td'><img src="./img/john.png" alt="john" className='imagenG nSeis'/></td>
+            <td className= 'td'> <a href='https://www.iveco.com/argentina/pages/home-page.aspx' target='_blank'><img src="./img/ivecoSF.png" alt="iveco" className='imagenG nCinco'/>  </a></td>
+            <td className= 'td'> <a href='https://www.mercedes-benz.com.ar/passengercars.html'target='_blank'> <img src="./img/mercedesSF.png" alt="mercedes" className='imagenG  nSeis'/> </a></td>
+   
             </tr>
           </tbody>  
         </Table>
