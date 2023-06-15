@@ -67,9 +67,44 @@ export const Services = () => {
     </div>
 
 
+  <div className='services-inicio'>
 
+
+
+      
+    <div className='service-info'>
+
+      <p className='parrafo'>En INGAR CONSULTING nos dedicamos a diseñar soluciones para nuestros clientes
+      y generar el camino para conseguir ese liderazgo deseado y necesario</p>
+      <p className='parrafo'>Ventajas financieras tales como:</p>
+
+      <p className='parrafo'>
+        El mantenimiento pasa a ser una inversión en lugar de un costo fijo.
+        Cero costos de alquiler y amortización de inmuebles y bienes de uso.
+        No son necesarias inversiones en herramientas tecnológicas, telefónicas, etc.
+        Cero inversión en capacitación y formación académica.
+        Estructuras jerárquicas sencillas y dinámicas.
+        Información actualizada.
+        Incluye leasing de equipos de diagnóstico.
+        Disminución del impacto ambiental.
+      </p>
+   </div>
+
+    <div className='services-contenido'>
+      <div className='img-texto'>
+        <img src="./img/ventajaClientes.png"className='img-fluid w-90 h-auto'/>
+      </div>
+    </div>
+
+  
+  
+  </div>
    
-
+  <div className='services-contenido'>
+      <div className='img-texto'>
+        <img src="./img/cuadroCompleto.png"className='img-fluid w-90 h-auto imagenCuadro'/>
+      </div>
+    </div>
   
 
     </div>

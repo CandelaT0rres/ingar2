@@ -39,10 +39,7 @@
   color: grey;
 }
 
-.container:hover  input {
-width: 200px;
 
-}
 
 .container:hover  i{
  transform: rotate(-360deg);
@@ -53,10 +50,7 @@ width: 200px;
   background: #93e6ff;
 }
 
-.sobreNosotrosImg {
-  width: 100%;
-  height: 100%;
-}
+
 
 .inicio-home-background{
   width: 100%;
@@ -407,8 +401,7 @@ ul {
   font-size: 3em;
 }
 .imagen{
-  
- margin-left: 180px;
+  margin-bottom: 40px;
  margin-top: 40px;
 }
 .parrafo {
@@ -437,11 +430,58 @@ ul {
       text-align: center;
       font-size: 1.2em;
       margin-top: 55px;
+      
   }
+
+  .imagen{
+  
+    margin-left: 180px;
+  }
+
+  .imagenCuadro{
+    margin-left: 150px;
+   
+  }
+  .contenedorDelSectorUno{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    box-shadow: 0 0 20px 0px rgba(255, 255, 255, .3);
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-right: 20px;
+}
+.parrafo-inicio{
+  text-align: left;
+  font-family: 'Quicksand', sans-serif;
+  color:#ffffff;
+  text-align: center;
+  font-size: 0.5em;
+  margin-top: 55px;
+  font-weight: normal;
+ }
 }
 
+.imagenCuadro{
 
+margin-top: 40px;
+margin-bottom: 40px;
+ }
 
+ .parrafo-inicio{
+  text-align: left;
+  font-family: 'Quicksand', sans-serif;
+  color:#ffffff;
+  text-align: center;
+  font-size: 0.6em;
+  margin-top: 30px;
+  font-weight: normal;
+ }
 
+ .inicioUno{
 
+  margin-top: 80px;
+ }
+ .titulo-inicio{
+color:#93e6ff;
 
+ }

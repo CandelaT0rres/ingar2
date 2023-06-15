@@ -22,12 +22,33 @@ export const About = () => {
 
       </section>
 
+      <div className='contenedorDelSectorUno'>
+
+      <div className='inicioUno-info'>
+    
+        <p className='parrafo-inicio titulo-inicio'> Inicio</p>
+
+        <p className='parrafo-inicio'> INGAR Consulting nace a principios del año 2015 fruto de observar y analizar las necesidades básicas del Mercado de Maquinaria Pesada y la industria dell Transporte</p>
+
+        <p className='parrafo-inicio titulo-inicio'> Mercado Actual</p>
+
+        <p className='parrafo-inicio'>Encontramos un mercado con alta demanda de perfiles técnicos especializados en el mantenimiento de Maquinaria pesada y Vehículos Pesados.
+        Este tipo de perfiles son escasos a nivel internacional.</p>
 
 
-      <div className="sobreNosotrosImg">
-       <img src="./img/infoFondoBlanco.png" alt="Descripción de mi imagen" className='img-fluid w-40 h-auto'/>
-       </div>
+        <p className='parrafo-inicio titulo-inicio'>Nuestras Ideas</p>
+        <p className='parrafo-inicio'>Desarrollamos nuestro porfatolio de productos y servicios en tres pilares que sirven de base para construír soluciones específicas y duraderas a las siguientes necesidades</p>
+        <p className='parrafo-inicio'>CAPACITACIÓN INTELIGENTE: En habiliades blandas, duras y específicas</p>
+        <p className='parrafo-inicio'> ASESORAMIENTO:Nuestros técnicos e ingenieros brindan soporte técnico en campo y soporte front office</p>
+        <p className='parrafo-inicio'>GERENCIAMIENTO: Focalizandonos en las necesidades de nuestros clientes y socios de negocios para las areas de mantenimiento y confiabilidad</p>
+              
+      </div>
 
+      <div className='inicioUno'>
+        <img src="./img/InicioUno.png"className='img-fluid w-90 h-auto'/>
+      </div>
+   
+      </div>
 
 
        <section className="row inicio-home-background section-2-home container-fluid">
