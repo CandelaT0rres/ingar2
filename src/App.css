@@ -483,5 +483,24 @@ margin-bottom: 40px;
  }
  .titulo-inicio{
 color:#93e6ff;
+text-shadow: 2px 1px 20px rgba(255, 255, 255, 0.5);
 
  }
+
+
+
+ .imagenCarruselAboutUno {
+
+  width: 700px;
+  height:800px; 
+ }
+
+.p-1{
+  animation: slideInFromLeft 1s ease-in;
+}
+.p-2{
+  animation: slideInFromLeft 1.5s ease-in;
+}
+.p-3{
+  animation: slideInFromLeft 2s ease-in;
+}
