@@ -6,7 +6,7 @@ import { Navbar, Nav } from 'react-bootstrap';
 
 export const NavBar = () => {
   return (
-    <div  className='navBar'>
+    <div  className='navBar transparent'>
           <Navbar
            bg="ligth transparent "
             variant={"ligth"} 

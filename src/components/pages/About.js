@@ -14,14 +14,11 @@ export const About = () => {
       <div className='inicioUno-info'>
     
         <p className='parrafo-inicio p-1 titulo-inicio'>NUESTRO COMIENZO</p>
-
         <p className='parrafo-inicio p-1'> INGAR Consulting nace a principios del año 2015 fruto de observar y analizar las necesidades básicas del Mercado de Maquinaria Pesada y la industria dell Transporte</p>
 
         <p className='parrafo-inicio titulo-inicio p-2'> MERCADO ACTUAL</p>
-
         <p className='parrafo-inicio p-2'>Encontramos un mercado con alta demanda de perfiles técnicos especializados en el mantenimiento de Maquinaria pesada y Vehículos Pesados.
         Este tipo de perfiles son escasos a nivel internacional.</p>
-
 
         <p className='parrafo-inicio titulo-inicio p-3'>NUESTRAS IDEAS</p>
         <p className='parrafo-inicio p-3'>Desarrollamos nuestro porfatolio de productos y servicios en tres pilares que sirven de base para construír soluciones específicas y duraderas a las siguientes necesidades</p>
@@ -65,59 +62,52 @@ export const About = () => {
    
       </div>
 
+    
+<div className='contenedorDelSectorUno'>
 
+<div className='inicioUno-info'>
+
+  <div className='foto'>
+    <img
+      className="img-fluid d-block w-90 misionDiv "
+      src="./img/misionDiv.png"
+    />
+  </div>
+        
+</div>
+
+<div className='inicioUno'>
+ 
+<div className='carruselDeAbout'>
+
+  <Carousel>
+    <Carousel.Item>  
+    <p className='parrafo-inicio titulo-inicio carrusel-parrafo'>MISIÓN</p>
+    <p className='parrafo-inicio carrusel-parrafo'>Transformarnos en el prestador de Servicio de Ingenieria, Mantenimiento y Procesos, proveyendo soluciones innovadoras у económicamente rentables, generando valores, beneficios y experiencia a nuestros</p>
+    </Carousel.Item>
+    <Carousel.Item>
+    <p className='parrafo-inicio titulo-inicio carrusel-parrafo'>OBJETIVO</p>
+    <p className='parrafo-inicio carrusel-parrafo'>Crecimiento efectivo y eficiente de acuerdo a nuestras Reglas de Calidad. Expandir nuestros mercados y negocios haciendo actividades más complejas que nuestros competidores Alcanzar estas actividades complejas teniendo en cuenta las correctas valoraciones de los riesgos y ventajas competitivas.</p>
+    </Carousel.Item>
+    <Carousel.Item>
+    <p className='parrafo-inicio titulo-inicio carrusel-parrafo'>VISIÓN</p>
+    <p className='parrafo-inicio carrusel-parrafo'>Alcanzar una posición de liderazgo Mundial de las firmas Consultoras, focalizados en brindar Servicios de Ingeniería de acuerdo a nuestra Misión, trabajando de acuerdo a nuestros Valores teniendo en cuenta el mantenimiento de nuestros Objetivos</p>
+    </Carousel.Item>
+    <Carousel.Item>  
+    <p className='parrafo-inicio titulo-inicio carrusel-parrafo'>VALORES</p>
+    <p className='parrafo-inicio carrusel-parrafo '>  Profesionalismo siempre que llevamos a cabo nuestras tareas. Respeto y Diversidad. Seremos los motores de cambio de nuestros Clientes</p>
+    </Carousel.Item>
+  </Carousel>
+
+</div>
+
+
+</div>
+
+</div>
+          
+      
      
-
-
-
-       <div>
-       <img src="./img/misiones.png" alt="ingar" className='img-fluid w-40 h-auto misiones'/>
-       </div>
-         
-
-         
-       <section className="row inicio-home-background section-2-home container-fluid">
-          <article className= "col-12 container ">
-                        
-            <div className="p-4 texto2">
-              <h1 className="text-dark fw-bold text-center m-4 ingar">Nuestros números</h1>
-              
-            </div>
-
-          </article>
-
-        </section>
-
-
-        <div>
-       <img src="./img/CHAT.png" alt="ingar" className='img-fluid w-40 h-auto misiones'/>
-
-
-       </div>
-
-
-       <section className="row inicio-home-background section-2-home container-fluid">
-          <article className= "col-12 container ">
-                        
-            <div className="p-4 texto2">
-              <h1 className="text-dark fw-bold text-center m-4 ingar">Contactanos</h1>
-              
-            </div>
-
-          </article>
-
-        </section>
-         
-
-   
-      <section>
-        <a href='http://c2200184.ferozo.com/INGAR-Corporativo.mp4'> Para saber más sobre nosotros </a>
-      </section>
-
-      <section>
-        <a href='https://anyflip.com/nyqxt/vnvm/'> Premio castrol- bp </a>
-      </section>
-
     </div>
   )
 };

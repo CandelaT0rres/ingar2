@@ -1,12 +1,12 @@
 import React from 'react'
 
+
 export const Footer = () => {
   return (
-    <div className='footer'>Footer
+    <div className='footer'>
     
-    
-    <p> </p>
-    
+    <p className='parrafo-footer'>INGAR CONSULTING 2023 - Todos los derechos reservados.</p>
+
     
     </div>
 

@@ -23,30 +23,30 @@ export const Contact = () => {
                 <div className= 'contact-form'>
                     <h3>Contactanos</h3>
 
-                    <form action=''>
+                    <form id="contact-form" action='' method='post'>
                         <p>
                         <label>Nombre</label>
-                        <input type='text' className='nombre'></input>
+                        <input type='text' className='nombre' name="nombre" required></input>
                         </p>
 
                         <p>
                         <label>Email</label>
-                        <input type='email' className='email' ></input>
+                        <input type='email' className='email' name="email" required ></input>
                         </p>
 
                         <p>
                         <label>Teléfono</label>
-                        <input type='tel' className='telefono'></input>
+                        <input type='tel' className='telefono' name="tel" required></input>
                         </p>
                            
                         <p>
                         <label>Asunto</label>
-                        <input type='text' className='asunto'></input>
+                        <input type='text' className='asunto' name="asunto" required></input>
                         </p>
 
                         <p>
                         <label>Mensaje</label>
-                        <textarea type='textarea' className='mensaje' rows={'3'}></textarea>
+                        <textarea type='textarea' className='mensaje'name="mensaje"  rows={'3'} required></textarea>
                         </p>
 
 
